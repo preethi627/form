@@ -1,0 +1,75 @@
+
+
+body,html {
+    font-family: 'Times New Roman';
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 20px;
+    font-family: 'Times New Roman';
+    font-size: 120%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 5px rgba(249, 112, 112, 0.1);
+    text-align: center;
+    width: 500px;
+    height: 250px;
+}
+
+    
+.language-selection button {
+        padding: 10px 30px;
+        margin: px;
+        background-color: #800087;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        text-align: center;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+
+h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #acacac;
+}
+
+.language-selection button:hover {
+    background-color: #a700b0;
+}
+
+.year-list {
+    margin-top: 20px;
+}
+
+.year-list.year-list button {
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    background-color: #a600af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.year-list button:hover {
+    background-color: #800087;
+}
+
+
+
